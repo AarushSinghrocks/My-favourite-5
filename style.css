@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(#03fcb6 0%, #45fc03 100%);
+}
+
+img {
+    width: 40%;
+    border: 40px;
+}
+
+.links {
+    float: left;
+    color: #D50000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+    font-family: 'Monoton', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links:hover {
+    background-color: black;
+}
+
+#home {
+    background-color: aqua;
+}
+
+#favouritebooks {
+    background-color: crimson;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#jkrowling{
+    transition: transform .2s;
+}
+#jkrowling:hover{
+    transform: scale(0.9);
+}
+#ruskinbond{
+    transition: transform .2s;
+}
+#ruskinbond:hover{
+    transform: scale(0.9);
+}
+#contact {
+    background-color: darkgoldenrod;
+}
+
+#contact iframe {
+    width: 100%;
+}
+.contact1 a{
+    color: white;
+    text-shadow: none;
+}
+.contact1 h3{
+    display: inline;
+}
